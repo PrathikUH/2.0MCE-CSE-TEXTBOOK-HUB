@@ -1,0 +1,35 @@
+/* body css for whole page */
+    body
+    {
+	    margin:0px;
+	    
+	    background-image:url(img/m2.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        font-weight: 500;
+	    color:#ffffff;
+	    font-family:Comic Sans MS;font-size: 22px;
+        -webkit-text-stroke: 1.5px black;
+    }
+    
+    #main{width:600px; height:auto; overflow:hidden; padding-bottom:20px; margin-left:auto; margin-right:auto; 
+    border-radius:15px; padding-left:10px; margin-top:50px; border-top:5px double #7fff00; border-left:5px double #7fff00;border-right:5px double #7fff00;  
+    border-bottom:5px double #7fff00; padding-top:20px;
+        background-image: url(img/lb.jpg);
+        background-size:100%;
+    
+    }
+    
+    #main table{font-family:"Comic Sans MS", cursive;font-weight: 550; color: double #white;font-size: 25px;-webkit-text-stroke: 2px red;}
+    /* css code for textbox */
+    #main .tb{font-family: "Comic Sans MS",cursive;color: #ffffff;font-size: 18px;-webkit-text-stroke: 1px black; height:28px; width:230px; border:3px solid #000000; color:white; font-weight:bold; border-left:3px solid #000000; opacity:1;border-radius: 5px;background-color: white}
+    
+    #main .tb:focus{height:28px; border:3px solid white; outline:none;background-color:#00ff00;border-left:3px solid #ffffff;}
+    /* css code for button*/
+    #main .btn{font-family:"Comic Sans MS", cursive; color: double #ffffff;font-size: 35px;-webkit-text-stroke: 1px #000000;width:160px; height:35px; outline:none;  color:#f7f7f7; font-weight:bold; border:2px solid red; 
+    text-shadow: 0px 0.5px 0.5px #fff; border-radius: 2px; font-weight: 600; color: #ffffff; letter-spacing: 1px; 
+    font-size:14px; background-color:#f1f1f1;
+        }
+  
+    #main .btn:hover{background-color:#adff2f; outline:none;  border-radius: 20px; color:#000000; border:3.5px solid #000000;
+    transition: 1s }
